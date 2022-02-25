@@ -1,3 +1,7 @@
+//Soal no 6
+//Tentukan hasil yang didapatkan ketika dilakukan perintah berikut ini:
+//add(0,e), add(2,f), add(3,g), add(4,h), add(6,h), add(-3,j) --> menyisipkan char tertentu pada index tertentu
+
 import java.util.ArrayList;
 
 public class nomor6 {
@@ -8,11 +12,7 @@ public class nomor6 {
     namaku.add("T");
     namaku.add("R");
     namaku.add("I");
-    
-    //Soal no 6
-    //Tentukan hasil yang didapatkan ketika dilakukan perintah berikut ini:
-    //add(0,e), add(2,f), add(3,g), add(4,h), add(6,h), add(-3,j) --> menyisipkan char tertentu pada index tertentu
-
+   
     namaku.add(0,"e");
     System.out.println("Element setelah menambahkan string e " + namaku);
 
