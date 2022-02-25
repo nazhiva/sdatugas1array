@@ -1,5 +1,8 @@
-import java.util.ArrayList;
+ //Soal no 4
+ //Tentukan hasil yang didapatkan ketika dilakukan perintah berikut ini:
+ //indexOf(a), indexOf(c), indexOf(q) -> berguna untuk mencari posisi dari char yang di minta
 
+import java.util.ArrayList;
 public class nomor5 {
     public static void main(String[] args) {
     //String[] nama = {"I","T","R","I"};
@@ -7,17 +10,12 @@ public class nomor5 {
     namaku.add("I"); // POSISI 0
     namaku.add("T"); // POSISI 1
     namaku.add("R"); // POSISI 2
-    namaku.add("I"); // POSISI 3
-    
+    namaku.add("I"); // POSISI 3   
 
     System.out.println("ArrayList sebelum remove:");
     for(String var: namaku){
          System.out.println(var);
     }
-
-    //Soal no 4
-    //Tentukan hasil yang didapatkan ketika dilakukan perintah berikut ini:
-    //remove(0), remove(3), remove(2) -> berguna untuk membuang char pada posisi index yang telah di tentukan
 
     //namaku.remove(0); // maka yang dibuang adalah char "I"    
     //namaku.remove(3); // maka yang dibuang adalah char "I"
